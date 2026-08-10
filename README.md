@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Divyanshu026/LeetCode/tree/master/0042-trapping-rain-water) |
+| [0063-unique-paths-ii](https://github.com/Divyanshu026/LeetCode/tree/master/0063-unique-paths-ii) |
 | [0084-largest-rectangle-in-histogram](https://github.com/Divyanshu026/LeetCode/tree/master/0084-largest-rectangle-in-histogram) |
 | [0085-maximal-rectangle](https://github.com/Divyanshu026/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0198-house-robber](https://github.com/Divyanshu026/LeetCode/tree/master/0198-house-robber) |
@@ -42,6 +43,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0042-trapping-rain-water](https://github.com/Divyanshu026/LeetCode/tree/master/0042-trapping-rain-water) |
 | [0062-unique-paths](https://github.com/Divyanshu026/LeetCode/tree/master/0062-unique-paths) |
+| [0063-unique-paths-ii](https://github.com/Divyanshu026/LeetCode/tree/master/0063-unique-paths-ii) |
 | [0070-climbing-stairs](https://github.com/Divyanshu026/LeetCode/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/Divyanshu026/LeetCode/tree/master/0085-maximal-rectangle) |
 | [0198-house-robber](https://github.com/Divyanshu026/LeetCode/tree/master/0198-house-robber) |
@@ -82,6 +84,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0063-unique-paths-ii](https://github.com/Divyanshu026/LeetCode/tree/master/0063-unique-paths-ii) |
 | [0085-maximal-rectangle](https://github.com/Divyanshu026/LeetCode/tree/master/0085-maximal-rectangle) |
 ## Two Pointers
 |  |
