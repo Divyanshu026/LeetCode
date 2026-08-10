@@ -25,7 +25,21 @@ public:
             v2[i-1] = nums[i];
         }
         int m = v1.size();
-        vector<int> dp1(m,-1),dp2(m,-1);
-        return max(f(m-1,v1,dp1),f(m-1,v2,dp2));
+        // vector<int> dp1(m,-1),dp2(m,-1);
+        // return max(f(m-1,v1,dp1),f(m-1,v2,dp2));
+        vector<int> dp1(m+1,0),dp2(m+1,0);
+        dp1[1] = v1[0];
+        dp2[1] = v2[0];
+        for(int i=2; i<=m; i++) {
+            int pick = v1[i-1] + dp1[i-2];
+            int notpick = 0 + dp1[i-1];
+            dp1[i] = max(pick,notpick);
+        }
+        for(int i=2; i<=m; i++) {
+            int pick = v2[i-1] + dp2[i-2];
+            int notpick = 0 + dp2[i-1];
+            dp2[i] = max(pick,notpick);
+        }
+        return max(dp1[m],dp2[m]);
     }
 };
