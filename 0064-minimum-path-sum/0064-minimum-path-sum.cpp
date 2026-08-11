@@ -5,8 +5,8 @@ public:
         if(dp[i][j]!=-1) return dp[i][j];
         int left = j>0 ? grid[i][j] + f(i,j-1,grid,dp) : 1e9;
         int up = i>0 ? grid[i][j] + f(i-1,j,grid,dp) : 1e9;
-        int mod = 1e9+7;
-        return dp[i][j] = min(left%mod,up%mod);
+        // int mod = 1e9+7;
+        return dp[i][j] = min(left,up);
     }
     int minPathSum(vector<vector<int>>& grid) {
         int n = grid.size();
