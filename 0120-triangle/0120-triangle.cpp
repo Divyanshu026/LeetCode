@@ -26,8 +26,6 @@ public:
                 dp[i][j] = min(down , diag);
             }
         }
-        int res = 1e9;
-        for(int j=0; j<m; j++) res = min(res,dp[0][j]);
-        return res;
+        return dp[0][0];
     }
 };
