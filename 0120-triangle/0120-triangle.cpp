@@ -15,7 +15,19 @@ public:
     int minimumTotal(vector<vector<int>>& v) {
         int n = v.size();
         int m = v[n-1].size();
-        vector<vector<int>> dp(n,vector<int>(m,1e9));
-        return f(0,0,v,dp);
+        vector<vector<int>> dp(n+1,vector<int>(m+1,1e9));
+        // return f(0,0,v,dp);
+        for(int j=m-1; j>=0; j--) dp[n-1][j] = v[n-1][j];
+
+        for(int i=n-2; i>=0; i--) {
+            for(int j=v[i].size()-1; j>=0; j--) {
+                int down = v[i][j] + dp[i+1][j];
+                int diag = v[i][j] + dp[i+1][j+1];
+                dp[i][j] = min(down , diag);
+            }
+        }
+        int res = 1e9;
+        for(int j=0; j<m; j++) res = min(res,dp[0][j]);
+        return res;
     }
 };
