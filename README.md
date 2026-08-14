@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0239-sliding-window-maximum](https://github.com/Divyanshu026/LeetCode/tree/master/0239-sliding-window-maximum) |
 | [0416-partition-equal-subset-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0455-assign-cookies](https://github.com/Divyanshu026/LeetCode/tree/master/0455-assign-cookies) |
+| [0494-target-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0494-target-sum) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Divyanshu026/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0735-asteroid-collision](https://github.com/Divyanshu026/LeetCode/tree/master/0735-asteroid-collision) |
 | [0907-sum-of-subarray-minimums](https://github.com/Divyanshu026/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
@@ -55,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/Divyanshu026/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Divyanshu026/LeetCode/tree/master/0213-house-robber-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0494-target-sum) |
 | [0907-sum-of-subarray-minimums](https://github.com/Divyanshu026/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
 ## Stack
 |  |
@@ -137,12 +139,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0494-target-sum) |
 ## 0-1 Knapsack
 |  |
 | ------- |
 | [0416-partition-equal-subset-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0494-target-sum) |
 ## Quicksort
 |  |
 | ------- |
 | [0455-assign-cookies](https://github.com/Divyanshu026/LeetCode/tree/master/0455-assign-cookies) |
+## Backtracking
+|  |
+| ------- |
+| [0494-target-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0494-target-sum) |
 <!---LeetCode Topics End-->
