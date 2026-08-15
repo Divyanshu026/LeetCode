@@ -19,7 +19,20 @@ public:
         if(abs(target) > total) return 0;
         if((target+total)%2!=0) return 0;
         int x = (target + total)/2;
-        vector<vector<int>> dp(n,vector<int>(x+1,-1));
-        return f(n-1,x,nums,dp);
+        // vector<vector<int>> dp(n,vector<int>(x+1,-1));
+        // return f(n-1,x,nums,dp);
+        vector<vector<int>> dp(n,vector<int>(x+1,0));
+        dp[0][0] = nums[0]==0 ? 2 : 1;
+        for(int val=1; val<=x; val++) dp[0][val] = val==nums[0];
+
+        for(int i=1; i<n; i++) {
+            for(int val=0; val<=x; val++) {
+                int pick = val-nums[i]>=0 ? dp[i-1][val-nums[i]] : 0;
+                int notpick = dp[i-1][val];
+                dp[i][val] =  pick + notpick;
+            }
+        }
+        return dp[n-1][x];
+
     }
 };
