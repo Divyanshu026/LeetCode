@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0494-target-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0494-target-sum) |
 | [0628-maximum-product-of-three-numbers](https://github.com/Divyanshu026/LeetCode/tree/master/0628-maximum-product-of-three-numbers) |
 | [0735-asteroid-collision](https://github.com/Divyanshu026/LeetCode/tree/master/0735-asteroid-collision) |
+| [0746-min-cost-climbing-stairs](https://github.com/Divyanshu026/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [0907-sum-of-subarray-minimums](https://github.com/Divyanshu026/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Divyanshu026/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [2104-sum-of-subarray-ranges](https://github.com/Divyanshu026/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0213-house-robber-ii](https://github.com/Divyanshu026/LeetCode/tree/master/0213-house-robber-ii) |
 | [0416-partition-equal-subset-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0494-target-sum) |
+| [0746-min-cost-climbing-stairs](https://github.com/Divyanshu026/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [0907-sum-of-subarray-minimums](https://github.com/Divyanshu026/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
 ## Stack
 |  |
