@@ -21,18 +21,19 @@ public:
         int x = (target + total)/2;
         // vector<vector<int>> dp(n,vector<int>(x+1,-1));
         // return f(n-1,x,nums,dp);
-        vector<vector<int>> dp(n,vector<int>(x+1,0));
-        dp[0][0] = nums[0]==0 ? 2 : 1;
-        for(int val=1; val<=x; val++) dp[0][val] = val==nums[0];
+        vector<int> dp(x+1,0);
+        dp[0] = nums[0]==0 ? 2 : 1;
+        for(int val=1; val<=x; val++) dp[val] = val==nums[0];
 
         for(int i=1; i<n; i++) {
+            vector<int> prev=dp;
             for(int val=0; val<=x; val++) {
-                int pick = val-nums[i]>=0 ? dp[i-1][val-nums[i]] : 0;
-                int notpick = dp[i-1][val];
-                dp[i][val] =  pick + notpick;
+                int pick = val-nums[i]>=0 ? prev[val-nums[i]] : 0;
+                int notpick = prev[val];
+                dp[val] =  pick + notpick;
             }
         }
-        return dp[n-1][x];
+        return dp[x];
 
     }
 };
