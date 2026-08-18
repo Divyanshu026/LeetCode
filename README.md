@@ -24,11 +24,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0907-sum-of-subarray-minimums](https://github.com/Divyanshu026/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Divyanshu026/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
 | [2104-sum-of-subarray-ranges](https://github.com/Divyanshu026/LeetCode/tree/master/2104-sum-of-subarray-ranges) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/Divyanshu026/LeetCode/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## Hash Table
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/Divyanshu026/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0992-subarrays-with-k-different-integers](https://github.com/Divyanshu026/LeetCode/tree/master/0992-subarrays-with-k-different-integers) |
+| [3471-find-the-largest-almost-missing-integer](https://github.com/Divyanshu026/LeetCode/tree/master/3471-find-the-largest-almost-missing-integer) |
 ## Sliding Window
 |  |
 | ------- |
