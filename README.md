@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0076-minimum-window-substring](https://github.com/Divyanshu026/LeetCode/tree/master/0076-minimum-window-substring) |
+| [0115-distinct-subsequences](https://github.com/Divyanshu026/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0402-remove-k-digits](https://github.com/Divyanshu026/LeetCode/tree/master/0402-remove-k-digits) |
 | [0516-longest-palindromic-subsequence](https://github.com/Divyanshu026/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [1092-shortest-common-supersequence](https://github.com/Divyanshu026/LeetCode/tree/master/1092-shortest-common-supersequence) |
@@ -57,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0064-minimum-path-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0064-minimum-path-sum) |
 | [0070-climbing-stairs](https://github.com/Divyanshu026/LeetCode/tree/master/0070-climbing-stairs) |
 | [0085-maximal-rectangle](https://github.com/Divyanshu026/LeetCode/tree/master/0085-maximal-rectangle) |
+| [0115-distinct-subsequences](https://github.com/Divyanshu026/LeetCode/tree/master/0115-distinct-subsequences) |
 | [0120-triangle](https://github.com/Divyanshu026/LeetCode/tree/master/0120-triangle) |
 | [0198-house-robber](https://github.com/Divyanshu026/LeetCode/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/Divyanshu026/LeetCode/tree/master/0213-house-robber-ii) |
