@@ -47,6 +47,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0076-minimum-window-substring](https://github.com/Divyanshu026/LeetCode/tree/master/0076-minimum-window-substring) |
 | [0402-remove-k-digits](https://github.com/Divyanshu026/LeetCode/tree/master/0402-remove-k-digits) |
 | [0516-longest-palindromic-subsequence](https://github.com/Divyanshu026/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
+| [1092-shortest-common-supersequence](https://github.com/Divyanshu026/LeetCode/tree/master/1092-shortest-common-supersequence) |
 ## Dynamic Programming
 |  |
 | ------- |
@@ -64,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0516-longest-palindromic-subsequence](https://github.com/Divyanshu026/LeetCode/tree/master/0516-longest-palindromic-subsequence) |
 | [0746-min-cost-climbing-stairs](https://github.com/Divyanshu026/LeetCode/tree/master/0746-min-cost-climbing-stairs) |
 | [0907-sum-of-subarray-minimums](https://github.com/Divyanshu026/LeetCode/tree/master/0907-sum-of-subarray-minimums) |
+| [1092-shortest-common-supersequence](https://github.com/Divyanshu026/LeetCode/tree/master/1092-shortest-common-supersequence) |
 ## Stack
 |  |
 | ------- |
@@ -159,4 +161,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0494-target-sum](https://github.com/Divyanshu026/LeetCode/tree/master/0494-target-sum) |
+## Longest Common Subsequence
+|  |
+| ------- |
+| [1092-shortest-common-supersequence](https://github.com/Divyanshu026/LeetCode/tree/master/1092-shortest-common-supersequence) |
 <!---LeetCode Topics End-->
