@@ -20,18 +20,21 @@ public:
         int m = t.size();
         // vector<vector<int>> dp(n+1,vector<int>(m+1,-1));
         // return f(n-1,m-1,s,t,dp);
-        vector<vector<int>> dp(n+1,vector<int>(m+1,0));
-        dp[0][0] = true;
-        for(int i=1; i<n+1; i++) dp[i][0] = false;
-        for(int j=1; j<m+1; j++) dp[0][j] = t[j-1]=='*' ?  dp[0][j-1] : false;
+        // vector<vector<int>> dp(n+1,vector<int>(m+1,0));
+        vector<int> dp(m+1,0);
+        dp[0] = true;
+        // for(int i=1; i<n+1; i++) dp[i][0] = false;
+        for(int j=1; j<m+1; j++) dp[j] = t[j-1]=='*' ?  dp[j-1] : false;
         for(int i=1; i<n+1; i++) {
+            vector<int> prev = dp;
+            dp[0] = false;
             for(int j=1; j<m+1; j++) {
-                if(t[j-1]==s[i-1]) dp[i][j] = dp[i-1][j-1];
-                else if(t[j-1]=='?') dp[i][j] = dp[i-1][j-1];
-                else if(t[j-1]=='*') dp[i][j] =  dp[i-1][j] || dp[i-1][j-1] || dp[i][j-1];
-                else dp[i][j] = false;
+                if(t[j-1]==s[i-1]) dp[j] = prev[j-1];
+                else if(t[j-1]=='?') dp[j] = prev[j-1];
+                else if(t[j-1]=='*') dp[j] =  prev[j] || prev[j-1] || dp[j-1];
+                else dp[j] = false;
             }
         }
-        return dp[n][m];
+        return dp[m];
     }
 };
