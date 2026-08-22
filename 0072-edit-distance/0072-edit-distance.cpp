@@ -18,21 +18,24 @@ public:
         int m = t.size();
         // vector<vector<int>> dp(n+1,vector<int>(m+1,-1));
         // return f(n-1,m-1,s,t,dp);
-        vector<vector<int>> dp(n+1,vector<int>(m+1,0));
-        dp[0][0] = 0;
-        for(int i=1; i<n+1; i++) dp[i][0] = i;
-        for(int j=1; j<m+1; j++) dp[0][j] = j;
+        // vector<vector<int>> dp(n+1,vector<int>(m+1,0));
+        vector<int> dp(m+1,0);
+        dp[0] = 0;
+        // for(int i=1; i<n+1; i++) dp[i][0] = i;
+        for(int j=1; j<m+1; j++) dp[j] = j;
         for(int i=1; i<n+1; i++) {
+            vector<int> prev = dp;
+            dp[0] = i;
             for(int j=1; j<m+1; j++) {
-                if(s[i-1]==t[j-1]) dp[i][j] = 0 + dp[i-1][j-1];
-                else dp[i][j] = 1 + min({
-                    dp[i][j-1],
-                    dp[i-1][j], 
-                    dp[i-1][j-1]
+                if(s[i-1]==t[j-1]) dp[j] = 0 + prev[j-1];
+                else dp[j] = 1 + min({
+                    dp[j-1],
+                    prev[j], 
+                    prev[j-1]
                 });
             }
         }
-        return dp[n][m];
+        return dp[m];
 
     }
 };
